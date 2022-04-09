@@ -34,23 +34,23 @@
                 <p>Bem vindo! Faça login para receber ofertas incriveis que preparamos para você</p>
             </div>
 
-            <div id="caixasInput">
-                <p>Nome de usuario</p>
-                <input type="text">
-                <p>Senha</p>
-                <input type="text">
-            </div>  
+            <form action="./tela_apos_login.html" method="get">
+                <div id="caixasInput">
+                    <p>Nome de usuario</p>
+                    <input type="text" name="usuario">
+                    <p>Senha</p>
+                    <input type="password" name="senha">
+                </div>  
 
-            <div id="lembrarSenha">
-                <input type="checkbox" name="Lembrar" id="botaoLembrar">
-                <p>Lembrar da senha</p>
-            </div>
+                <div id="lembrarSenha">
+                    <input type="checkbox" name="Lembrar" id="botaoLembrar" >
+                    <p>Lembrar da senha</p>
+                </div>
 
-            <div id="botaoLogin">
-                <button type="submit">
-                    Login
-                </button>
-            </div>
+                <div id="botaoLogin">
+                    <input type="submit" value="Login">
+                </div>
+            </form>
 
             <div id="textosFinal">
                 <p>Novo usuário? <a href="#"> Singup</a></p>

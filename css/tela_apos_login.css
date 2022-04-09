@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(70deg, rgb(96, 17, 255), rgb(179, 0, 255));
+}
+
+#container{
+    position: absolute;
+    width: 80vmin;
+    height: 80vmin;
+    background-color: rgb(246, 246, 246);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3vmin;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 1vmin 1vmin 10vmin rgb(72, 0, 180);
+
+}
+
+.inside{
+    width: 100%;
+    height: 50%; 
+}
+
+.caixa1{ 
+    text-align: center;
+    position: relative;
+    color: white;
+    background-image: url(../images/background\ blue.jpg);
+    background-size: cover;  
+}
+.caixa1 h1{
+    font-size: 6vmin;
+    position: relative;
+    top: 40%;
+    margin: 0px;
+    padding: 0px;
+    text-shadow: 5px 5px 10px rgb(0, 165, 184);
+}
+.caixa1 h2{
+    font-size: 4vmin;
+    position: relative;
+    top: 40%;
+    margin: 0px;
+    padding: 0px;
+    text-shadow: 5px 5px 10px rgb(0, 165, 184);
+}
+
+.caixa2{
+    text-align: center;
+    display: block;
+    position: relative;
+    color: rgb(78, 78, 78);
+    overflow: auto;
+    
+}
+.caixa2 div{
+    margin: 5vmin;
+    /* background-color: beige; */
+}
+.caixa2 p{
+    margin-top: 9%;
+    padding-top: 4%;
+    font-size: 4.3vmin;
+    position: relative;
+    top: 10%;
+}
+.caixa2 img{
+    position: relative;
+    left: 3%;
+    float: right;
+    width: 40%;
+}
+
+.caixa2 button{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vmin;
+    width: 29vmin;
+    height: 4vmin;
+    background-color: rgb(79, 187, 255);
+    border: 0px solid white;
+    border-radius: 0.3vmin;
+    
+}
+.caixa2 button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(79, 187, 255);
+    border: 0.1vmin solid rgb(79, 187, 255);
+    cursor: pointer;
+}
+.caixa2 button:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(96, 17, 255);
+    border: 0.1vmin solid rgb(96, 17, 255);
+}

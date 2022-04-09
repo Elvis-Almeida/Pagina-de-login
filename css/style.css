@@ -127,7 +127,7 @@ body{
     margin-top: 3vmin;
     margin-left: 5vmin;
 }
-#botaoLogin>button{
+#botaoLogin>input{
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 2vmin;
@@ -138,13 +138,13 @@ body{
     border-radius: 0.3vmin;
     
 }
-#botaoLogin>button:hover{
+#botaoLogin>input:hover{
     background-color: rgb(255, 255, 255);
     color: rgb(79, 187, 255);
     border: 0.1vmin solid rgb(79, 187, 255);
     cursor: pointer;
 }
-#botaoLogin>button:active{
+#botaoLogin>input:active{
     background-color: rgb(255, 255, 255);
     color: rgb(96, 17, 255);
     border: 0.1vmin solid rgb(96, 17, 255);
